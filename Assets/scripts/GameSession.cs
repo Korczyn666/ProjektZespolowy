@@ -32,6 +32,12 @@ public class GameSession : MonoBehaviour
         scoreText.text = score.ToString();
     }
 
+    public void AddScore(int points)
+    {
+        score += points;
+        scoreText.text = score.ToString();
+    }
+
     public void ProcessPlayerDeath()
     {
         if(playerLives > 1)
@@ -39,6 +45,7 @@ public class GameSession : MonoBehaviour
             playerLives--;
             int currentIndex = SceneManager.GetActiveScene().buildIndex;
             SceneManager.LoadScene(currentIndex);
+            livesText.text = playerLives.ToString();
         }
         else
         {
