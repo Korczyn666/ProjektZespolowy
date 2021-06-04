@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Levels/Sandbox 2.unity
     guid: 17a858e542d3f7c47af5eabb061a13cc
   - enabled: 1
+    path: Assets/Levels/Sandbox 3.unity
+    guid: 59efd651c9d493242bb7442bce8927a8
+  - enabled: 1
     path: Assets/Levels/EndScreen.unity
     guid: 9131dbf2fe9c6ca4ba606443dd1cbba9
   m_configObjects: {}
